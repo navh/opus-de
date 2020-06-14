@@ -1,5 +1,10 @@
 # opus-de
 
+## Todo:
+- [ ] Webhook for cloud build
+- [ ] Finish init
+- [ ] Hello-world for gcp function (python?) 
+
 ## Project setup
 ```
 npm install
