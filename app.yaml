@@ -1,0 +1,13 @@
+runtime: nodejs12
+
+handlers:
+  # Serve all static files with urls ending with .whatever
+- url: /(.*\..+)$
+  static_files: dist/\1
+  upload: dist/(.*\..+)$
+
+  # catch all handler to index
+- url: /.*
+  static_files: dist/index.html
+  upload: dist/index.html
+
